@@ -48,15 +48,28 @@ ruy_cc_library(
     ${ruy_2_O3}
 )
 
-ruy_cc_library(
-  NAME
-    ruy_gtest_wrapper
-  TESTONLY
-  HDRS
-    gtest_wrapper.h
-  DEPS
-    gtest
-)
+if (QNX)
+  ruy_cc_library(
+    NAME
+      ruy_gtest_wrapper
+    TESTONLY
+    HDRS
+      gtest_wrapper.h
+    DEPS
+      gtest
+      regex
+  )
+else()
+  ruy_cc_library(
+    NAME
+      ruy_gtest_wrapper
+    TESTONLY
+    HDRS
+      gtest_wrapper.h
+    DEPS
+      gtest
+  )
+endif()
 
 ruy_cc_library(
   NAME
