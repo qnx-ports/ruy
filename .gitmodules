@@ -3,4 +3,4 @@
 	url = https://github.com/google/googletest
 [submodule "cpuinfo"]
 	path = third_party/cpuinfo
-	url = https://gitlab.com/qnx/libs/cpuinfo.git
+	url = https://gitlab.com/qnx/ports/cpuinfo.git
