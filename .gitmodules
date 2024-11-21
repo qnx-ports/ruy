@@ -3,4 +3,4 @@
 	url = https://github.com/google/googletest
 [submodule "cpuinfo"]
 	path = third_party/cpuinfo
-	url = https://github.com/pytorch/cpuinfo
+	url = https://github.com/qnx-ports/cpuinfo
