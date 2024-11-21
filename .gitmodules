@@ -1,6 +1,6 @@
 [submodule "googletest"]
 	path = third_party/googletest
-	url = https://github.com/google/googletest
+	url = https://github.com/qnx-ports/googletest
 [submodule "cpuinfo"]
 	path = third_party/cpuinfo
 	url = https://github.com/qnx-ports/cpuinfo
